@@ -495,6 +495,7 @@ pub const SHUT_WR: i32 = 2;
 pub const SHUT_RD: i32 = 1;
 pub const SHUT_RDWR: i32 = 3;
 pub const SO_ERROR: i32 = 4;
+pub const SO_KEEPALIVE: i32 = 5;
 pub const SO_REUSEADDR: i32 = 11;
 pub const SOMAXCONN: i32 = 8;
 pub const SO_LINGER: i32 = 6;
